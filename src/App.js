@@ -1,9 +1,8 @@
 import React from 'react'
+import RouterPage from './route';
 
 const App = () => {
-  return (
-    <div className='text-3xl'>EduTech</div>
-  )
+  return <RouterPage />;
 }
 
 export default App
