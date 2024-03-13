@@ -2,6 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: Spacegrotesk;
+    src: url('../public/fonts/Space_Grotesk/SpaceGrotesk-VariableFont_wght.ttf');
+}
+*::-webkit-scrollbar{
+    display: none;
+}
+
+@font-face {
+    font-family: dosis;
+    src: url('../public/fonts/dosis.bold.ttf');
+}
+
+@font-face {
+    font-family: berkshire;
+    src: url('../public/fonts/berkshire-swash.regular.ttf');
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -12,4 +30,14 @@ html,body{
     width: 100vw;
     background: #fff;
     overflow-x: hidden;
+}
+
+.font-spacegrotesk{
+    font-family: Spacegrotesk;
+}
+.font-dosis{
+    font-family: dosis;
+}
+.font-berkshire{
+    font-family: berkshire;
 }
